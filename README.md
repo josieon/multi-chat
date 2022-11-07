@@ -1,7 +1,11 @@
 # multi-chat
 multi-chat server and client / Linux / multi-thread using mutex
 
-기능 : 귓속말 기능 / 사용자 접속 및 퇴장 시 알림 / 채팅
+< 기능 >
+- 채팅 : 사용자 간 실시간 채팅
+- 사용자 접속 및 퇴장 시 알림 : 사용자 접속 및 퇴장 시 다른 사용자들에게 알림 메시지
+- 귓속말 : @사용자명 커맨드를 사용해 특정 사용자에게 귓속말을 보냄
+- 접속중인 사용자 보기 : @show 커맨드를 사용해 현재 서버에 접속중인 사용자들을 출력
 
 <img src="https://user-images.githubusercontent.com/76546008/200307284-1ad3aec4-d079-4adb-8b5b-2d86dc0bf1c6.png" width = 640/>
 
@@ -20,7 +24,7 @@ multi-chat server and client / Linux / multi-thread using mutex
 1. @show 조시언
 1. @exit 조시언 사용자 종료
 
-내용
+< 내용 >
 - 고정 포트번호 : 3500
 - 멀티 쓰레드 방식
 - 로컬 동작
